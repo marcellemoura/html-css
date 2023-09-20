@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+   <h1>Inserindo vídeos hospedados localmente</h1>
+   <h2>Estes vídeos estão hospedados no meu próprio servidor</h2>
+   <p>Este primeiro vídeo como mostrado no meu código é apenas uma DEMONSTRAÇÃO de como aplicar um vídeo num site, mas ele não irá servir pois está com somente UM formato, que é o MP4. Não posso usá-lo assim comercialmente pois nem todos que irão acessar meu site usarão/terão o mesmo navegador, assim podendo acontecer o caso de o vídeo não rodar/reproduzir</p>
+   <video src="midia/meuvideo1.mp4" width="250" controls></video> <!--A FORMA MAIS SIMPLES-->
+<br>
+<p>Agora aqui neste vídeo, está a aplicação correta dele no meu código, pois consegui botar todos os formatos que pude (mp4, ogv, webm), então o risco de um usuário ficar com o vídeo sem reproduzir é beeem menor.</p>
+   <video width="250" poster="imagens/WhatsApp Image 2023-08-01 at 00.09.30.jpeg" controls autoplay loop>
+    <source src="midia/meuvideo1.mp4" type="video/mp4">
+    <source src="midia/meuvideo2.ogv" type="vídeo/ogg">
+    <source src="midia/meuvideo3.webm" type="vídeo/webm">
+    </video>
+
+    <h1>Inserindo vídeos do Youtube (incorporando)</h1>
+    <iframe width="400" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+    <h1>Incorporando vídeos com o Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/168054330?h=4970bf19dd&byline=0&portrait=0" width="400" height="225" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+    
+</body>
+</html>
