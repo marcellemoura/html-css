@@ -3,4 +3,4 @@
 
  Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
- <a href="https://marcellemoura.github.io/html-css/exercicios-css/desafio10/android.html"> Executar o exercício 001 </a>
+ <a href="https://marcellemoura.github.io/html-css/exercicios-html/ex001/index.html"> Executar o exercício 001 </a>
