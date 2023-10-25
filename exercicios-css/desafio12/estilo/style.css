@@ -41,13 +41,28 @@ section {padding-top: 10vh;
          font-family: var(--fonte3);
          font-size: 2vw;}
 
-section.normal {background-color: white;
-                color: black;}
+section > p {padding-bottom: 2em;}
 
-section.imagem > p {display: inline-block;
+section.normal {background-color: white;
+                color: black;
+                text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.268);}
+
+section.imagem {box-shadow: inset 6px 6px 13px 0px black;
+                background-size: cover;
+                background-attachment: fixed;}
+
+section.imagem > p {color: white;
+                    display: inline-block;
                     padding: 5px;
-                    background-color: rgb(0, 0, 0, 0.253);
+                    background-color: rgba(0, 0, 0, 0.256);
                     }
+
+section#img01 {background-image: url('../imagens/mitski1.jpg');
+               background-position: left;
+               }
+
+section#img02 {background-image: url(../imagens/mitski2.png);
+               background-position: center center; }
 
 footer a:hover, footer a:hover{text-decoration: underline;}
 
