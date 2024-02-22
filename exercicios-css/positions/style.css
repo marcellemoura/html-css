@@ -1,0 +1,12 @@
+@charset "UTF-8";
+* {margin: 0;
+   padding: 0;}
+.box {width: 100px;
+      height: 100px;}
+    
+.box-one {background: cyan;}
+.box-two {background: yellow;
+         position: absolute;
+          opacity: .9;
+          top: 10px;
+          left: 10px;}
